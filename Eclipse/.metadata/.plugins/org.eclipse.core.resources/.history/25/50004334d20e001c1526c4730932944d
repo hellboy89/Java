@@ -1,0 +1,27 @@
+
+public class ClasseTeste2 {
+	
+	private String modelo;
+	private float polegadas;
+	private String cor;
+	private boolean ligado;
+	private int botoes;
+	
+	public ClasseTeste2(String m, float p, String c, boolean l, int b) {
+		this.modelo = m;
+		this.polegadas = p;
+		this.cor = c;
+		this.ligado = l;
+		this.botoes = b;
+	}
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,25 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+
+public class trocoVerificado {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		ClassePrincipal troc = new ClassePrincipal();
+		
+		System.out.print("Preço unitário do produto: ");
+		troc.precUnit = sc.nextDouble();
+		System.out.print("Quantidade comprada: ");
+		troc.quantComp = sc.nextInt();
+		System.out.print("Dinheiro recebido: ");
+		troc.dinRec = sc.nextDouble();
+	
+				
+		sc.close();
+	}
+
+}

@@ -1,0 +1,13 @@
+
+public class exerBanco {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ClasseBanco banco = new ClasseBanco(1234, "cp", "juan", (float) 100.00, "Aberta");
+		
+		
+		banco.getStatus();
+		
+	}
+
+}

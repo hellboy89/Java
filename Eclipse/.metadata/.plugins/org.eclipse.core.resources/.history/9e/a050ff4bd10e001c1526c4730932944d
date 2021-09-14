@@ -1,0 +1,21 @@
+
+public class ClasseTeste2 {
+	
+	private String modelo;
+	private float polegadas;
+	private String cor;
+	private boolean ligado;
+	private int botoes;
+	
+	public ClasseTeste2(String m, Strinc c, float p, boolean l, int b) {
+		
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

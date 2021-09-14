@@ -1,0 +1,12 @@
+
+public class _teste1 {
+
+	public static void main(String[] args) {
+		
+		ClasseTeste1 teste = new ClasseTeste1("Bic", "Amarelo", 0.4f, false);
+		
+		teste.status();
+
+	}
+
+}

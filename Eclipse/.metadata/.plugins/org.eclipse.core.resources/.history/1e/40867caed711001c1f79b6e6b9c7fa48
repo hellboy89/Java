@@ -1,0 +1,35 @@
+
+public class Luta {
+	//atributos	
+	private Lutador desafiado;
+	private Lutador desafiante;
+	private int rounds;
+	private boolean aprovada;
+	
+	//métodos públicos
+	public void marcarLuta() {
+		
+	}
+	
+	public void lutar() {
+		
+	}
+	
+	//métodos especiais
+	public Luta(Lutador desafiado, Lutador desafiante, int rounds, boolean aprovada) {
+		super();
+		this.desafiado = desafiado;
+		this.desafiante = desafiante;
+		this.rounds = rounds;
+		this.aprovada = aprovada;
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+
+}

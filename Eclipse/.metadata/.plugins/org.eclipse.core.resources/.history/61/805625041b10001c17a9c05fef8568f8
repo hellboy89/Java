@@ -1,0 +1,15 @@
+
+public class exerBanco {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ClasseBanco pessoa1 = new ClasseBanco();
+		
+		pessoa1.setNumConta(1111);
+		pessoa1.setDono("Juan");
+		pessoa1.abrirConta("cc");
+		pessoa1.status();
+		
+	}
+
+}
