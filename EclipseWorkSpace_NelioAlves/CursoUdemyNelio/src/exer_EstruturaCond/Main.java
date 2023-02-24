@@ -50,10 +50,24 @@ public class Main {
 //		Exer5 valItem = new Exer5(codigo, quantidade);
 //		valItem.mostraValor();
 		
-		System.out.print("Insira um valor: ");
-		double numero = sc.nextDouble();
-		Exer6 val = new Exer6(numero);
-		val.mostraResultado();
+//		System.out.print("Insira um valor: ");
+//		double numero = sc.nextDouble();
+//		Exer6 val = new Exer6(numero);
+//		val.mostraResultado();
+		
+//		System.out.print("Insira o valor do Eixo X: ");
+//		double x = sc.nextDouble();
+//		System.out.print("Insira o valor do Eixo Y: ");
+//		double y = sc.nextDouble();
+//		Exer7 eixo = new Exer7(x, y);
+//		eixo.verificaEixo();
+//		
+//		eixo.mostraValorEixos();
+		
+		System.out.print("Digite o salário: ");
+		double salario = sc.nextDouble();
+		Exer8 sal = new Exer8(salario);
+		sal.mostraValor();
 		
 		sc.close();
 
