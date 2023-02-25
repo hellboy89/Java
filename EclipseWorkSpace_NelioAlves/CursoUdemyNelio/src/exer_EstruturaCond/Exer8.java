@@ -27,28 +27,29 @@ public class Exer8 {
 		this.porcentagem = porcentagem;
 	}
 	
+	
+	
 	protected void setCalcPorcentagem() {
 		if (getSalario() <= 2000.00) {
 			setPorcentagem(0);
 		}
 		else if (getSalario() <= 3000.00) {
-			setPorcentagem(8);
+			setPorcentagem((getSalario() - 2000.00) * 0.08);
 		}
 		else if (getSalario() <= 4500.00) {
-			setPorcentagem(18);
+			setPorcentagem((getSalario() - 3000.00) * 0.18 + 1000.00 * 0.08);
 		}
 		else {
 			setPorcentagem((getSalario() - 4500.00) * 0.28 + 1500.0 * 0.18 + 1000.00 * 0.08);
 		}
 		
-		this.calcPorcentagem = (getPorcentagem() * getSalario()) / 100;
 	}
 	
 	public void mostraValor() {
 		setCalcPorcentagem();
 		
-		if (getCalcPorcentagem() > 0) {
-			System.out.printf("R$ %.2f", getCalcPorcentagem());
+		if (getPorcentagem() > 0) {
+			System.out.printf("R$ %.2f", getPorcentagem());
 		}
 		else {
 			System.out.println("Isento");
