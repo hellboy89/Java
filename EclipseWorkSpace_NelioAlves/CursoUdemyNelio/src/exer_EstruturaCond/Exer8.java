@@ -27,8 +27,6 @@ public class Exer8 {
 		this.porcentagem = porcentagem;
 	}
 	
-	
-	
 	protected void setCalcPorcentagem() {
 		if (getSalario() <= 2000.00) {
 			setPorcentagem(0);
