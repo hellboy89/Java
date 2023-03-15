@@ -33,24 +33,25 @@ public class Matriz {
 		
 		int pesqNum = sc.nextInt();
 		
-		List<Integer> posicaoL = new ArrayList<>();
-		List<Integer> posicaoC = new ArrayList<>();
+		List<Integer> posicao = new ArrayList<>();
+		
+		int contRep = 0;
 		
 		for (int i = 0; i < quantLinha; i++) {
 			for (int j = 0; j < quantColuna; j++) {	
 				if (mat[i][j] == pesqNum) {
-					posicaoL.add(i);
-					posicaoC.add(j);
+					posicao.add(i);
+					posicao.add(j);
+					contRep++;
 				}
 			}
 		}
 		
-		// System.out.println("Posição: " + posicaoL + "," + posicaoC);
-		System.out.println(posicaoC);
-		System.out.println(posicaoL);
+		for (int i = 0; i < contRep; i++) {
+			System.out.println("Posição " + posicao.get(i));			
+		}
 		
 		sc.close();
 		
 	}
-	
 }
